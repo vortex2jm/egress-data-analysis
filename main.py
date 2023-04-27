@@ -35,7 +35,7 @@ app.layout = html.Div(style={'backgroundColor': gp.colors['background']}, childr
     html.H3(children=f'''EngComp|Ccomp x Edição''', style=text_style),
     dcc.Graph(id='eca', figure=gp.comp_graph_a),
 
-    html.H2(children=f'''Egressos do introcomp matriculados na UFES nos 3 últimos semestres''', style=text_style),
+    html.H2(children=f'''Egressos do introcomp que foram aprovados na UFES nos 3 últimos semestres''', style=text_style),
     dcc.Graph(id='eps', figure=gp.semesters_graph)
 ])
 

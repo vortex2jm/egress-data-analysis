@@ -41,7 +41,7 @@ df_2022 = pd.read_csv('./data/egressos2022.csv')
 egresses_amount_per_year = []
 egresses_amount_per_year.append(len(df_2021.index))
 egresses_amount_per_year.append(len(df_2022.index))
-egresses_amount_per_year.append(len(df_registered.index))
+egresses_amount_per_year.append(len(df.index))
 
 semesters = ['2021', '2022', '2023']
 
